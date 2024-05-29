@@ -6,9 +6,9 @@ import { TextGenerateEffect } from './ui/TextGenerateEffect';
 
 const Hero = () => {
 	return (
-		<div className="pb-20 pt-36">
+		<div className="h-screen w-screen bg-cover bg-top relative flex justify-center items-center">
 			<div
-				className="h-[50rem] w-full dark:bg-blue-200 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2]
+				className="h-full w-full dark:bg-blue-200 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2]
       flex items-center justify-center absolute top-0 left-0"
 			>
 				{/* Radial gradient for the container to give a faded look */}
@@ -17,8 +17,13 @@ const Hero = () => {
         [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
 				/>
 			</div>
+			<div className="absolute top-0 left-0 h-full w-full opacity-10 object-cover z-0 overflow-hidden">
+				<video autoPlay muted loop>
+					<source src="/videos/Waves.mp4" type="video/mp4" />
+				</video>
+			</div>
 
-			<div className="flex justify-center relative my-20 z-20">
+			<div className="flex relative my-20">
 				<div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
 					<TextGenerateEffect
 						className="text-center text-[40px] md:text-5xl lg:text-6xl"
