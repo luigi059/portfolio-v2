@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import { useState } from 'react';
-
 import { cn } from '@/utils/cn';
+import { useState } from 'react';
+import GridGlobe from './GridGlobe';
 
 export const BentoGrid = ({
 	className,
@@ -13,7 +13,6 @@ export const BentoGrid = ({
 	return (
 		<div
 			className={cn(
-				// change gap-4 to gap-8, change grid-cols-3 to grid-cols-5, remove md:auto-rows-[18rem], add responsive code
 				'grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto',
 				className
 			)}
@@ -102,8 +101,7 @@ export const BentoGridItem = ({
 						{description}
 					</div>
 
-					{/* for the github 3d globe */}
-					{/* {id === 2 && <GridGlobe />} */}
+					{id === 2 && <GridGlobe />}
 
 					{/* Tech stack list div */}
 					{id === 3 && (
