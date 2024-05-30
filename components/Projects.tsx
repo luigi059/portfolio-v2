@@ -4,11 +4,10 @@
 import { FaLocationArrow } from 'react-icons/fa6';
 
 import { projects } from '@/data';
-import { PinContainer } from './ui/PinContainer';
 
 const Projects = () => {
 	return (
-		<div className="mb-40">
+		<div id="projects" className="mb-20">
 			<div>
 				<h1 className="heading mb-8">Recent Projects</h1>
 				<h2 className="tracking-widest text-xs text-center text-white">
@@ -24,13 +23,15 @@ const Projects = () => {
 						key={item.id}
 					>
 						<div className="p-4  flex justify-start items-start rounded-2xl shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1]  bg-blue-100">
-							<div className="">
+							<div>
 								<div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-									<img
-										src={item.img}
-										alt="cover"
-										className="w-full h-full rounded-lg"
-									/>
+									<a href={item.img} target="_blank">
+										<img
+											src={item.img}
+											alt="cover"
+											className="w-full h-full rounded-lg"
+										/>
+									</a>
 								</div>
 
 								<h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">

@@ -52,3 +52,21 @@ export const projects = [
 		link: 'https://ecommerce-platform-wrx4.onrender.com',
 	},
 ];
+
+export const socials = [
+	{
+		id: 1,
+		img: '/git.svg',
+		link: 'https://github.com/luigi059',
+	},
+	{
+		id: 2,
+		img: '/link.svg',
+		link: 'https://www.linkedin.com/in/luigimarkfernandez/',
+	},
+	{
+		id: 3,
+		img: '/cv.svg',
+		link: '/CV.pdf',
+	},
+];
