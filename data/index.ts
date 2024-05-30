@@ -33,3 +33,22 @@ export const gridItems = [
 		spareImg: '',
 	},
 ];
+
+export const projects = [
+	{
+		id: 1,
+		title: 'Real Time Chat Application',
+		des: 'Real Time Chat Application where users can register and send messages.',
+		img: '/chat.png',
+		iconLists: ['/js.svg', '/fe.svg', '/node.svg', '/mongo.svg'],
+		link: 'https://real-time-chat-nyn0.onrender.com',
+	},
+	{
+		id: 2,
+		title: 'E-Commerce Platform',
+		des: 'A full-fledged e-commerce website where users can buy products. ',
+		img: '/e-commerce.png',
+		iconLists: ['/js.svg', '/fe.svg', '/node.svg', '/mongo.svg'],
+		link: 'https://ecommerce-platform-wrx4.onrender.com',
+	},
+];
