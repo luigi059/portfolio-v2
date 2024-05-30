@@ -8,12 +8,12 @@ const Hero = () => {
 	return (
 		<div className="h-screen w-screen bg-cover bg-top relative flex justify-center items-center">
 			<div
-				className="h-full w-full dark:bg-blue-200 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2]
+				className="h-full w-full dark:bg-blue-100 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2]
       flex items-center justify-center absolute top-0 left-0"
 			>
 				{/* Radial gradient for the container to give a faded look */}
 				<div
-					className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-blue-200 bg-white
+					className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-blue-100 bg-white
         [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
 				/>
 			</div>

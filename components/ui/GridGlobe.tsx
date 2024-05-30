@@ -10,11 +10,11 @@ const World = dynamic(() => import('./Globe').then((m) => m.World), {
 const GridGlobe = () => {
 	const globeConfig = {
 		pointSize: 4,
-		globeColor: '#062056',
+		globeColor: '#0A2647',
 		showAtmosphere: true,
 		atmosphereColor: '#FFFFFF',
 		atmosphereAltitude: 0.1,
-		emissive: '#062056',
+		emissive: '#2C74B3',
 		emissiveIntensity: 0.1,
 		shininess: 0.9,
 		polygonColor: 'rgba(255,255,255,0.7)',
@@ -30,7 +30,7 @@ const GridGlobe = () => {
 		autoRotate: true,
 		autoRotateSpeed: 0.5,
 	};
-	const colors = ['#06b6d4', '#3b82f6', '#6366f1'];
+	const colors = ['#144272', '#205295', '#2C74B3'];
 	const sampleArcs = [
 		{
 			order: 1,

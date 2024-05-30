@@ -60,9 +60,9 @@ export const BentoGridItem = ({
 				className
 			)}
 			style={{
-				background: 'rgb(4,7,29)',
+				background: 'rgb(20,66,114)',
 				backgroundColor:
-					'linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)',
+					'linear-gradient(55deg, rgba(44,116,179,1) 0%, rgba(255,0,0,1) 100%)',
 			}}
 		>
 			<div className="h-full">
@@ -112,20 +112,20 @@ export const BentoGridItem = ({
 									<span
 										key={i}
 										className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    lg:opacity-100 rounded-lg text-center bg-blue-200"
 									>
 										{item}
 									</span>
 								))}
-								<span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+								<span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-blue-200"></span>
 							</div>
 							<div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-								<span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+								<span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-blue-200"></span>
 								{rightLists.map((item, i) => (
 									<span
 										key={i}
 										className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    lg:opacity-100 rounded-lg text-center bg-blue-200"
 									>
 										{item}
 									</span>
