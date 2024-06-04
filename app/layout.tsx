@@ -6,7 +6,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: "Luigi's Portfolio",
+	title: 'Luigi Mark Fernandez',
 	description: "Luigi's Portfolio Version 2.0",
 };
 
@@ -17,6 +17,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning={true}>
+			<head>
+				<link rel="icon" href="/favicon.ico" sizes="any" />
+			</head>
 			<body className={inter.className} suppressHydrationWarning={true}>
 				<ThemeProvider
 					attribute="class"
