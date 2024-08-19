@@ -16,11 +16,6 @@ const Hero = () => {
         [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
 				/>
 			</div>
-			<div className="absolute top-0 left-0 h-screen w-screen opacity-10 object-cover z-0 overflow-hidden">
-				<video autoPlay muted loop>
-					<source src="/videos/Waves.mp4" type="video/mp4" />
-				</video>
-			</div>
 
 			<div className="flex relative my-20">
 				<div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
@@ -39,6 +34,12 @@ const Hero = () => {
 						/>
 					</a>
 				</div>
+			</div>
+
+			<div className="absolute top-0 left-0 h-screen w-screen opacity-10 z-0 overflow-hidden">
+				<video autoPlay muted loop className="max-w-none">
+					<source src="/videos/Waves.mp4" type="video/mp4" />
+				</video>
 			</div>
 		</div>
 	);
